@@ -1,0 +1,10 @@
+const iceCreamFlavours = ["chocolate", "vanilla", "cookies and cream", "rocky road", "strawberry"];
+console.log(iceCreamFlavours);
+const newFlavors = [...iceCreamFlavours, 'root beer'];
+console.log(newFlavors);
+const firstFlavor = newFlavors[0];
+console.log(firstFlavor); 
+const lastFlavor = newFlavors[newFlavors.length - 1];
+console.log(lastFlavor); 
+const totalFlavors = newFlavors.length;
+console.log(totalFlavors);
